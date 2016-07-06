@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.soundcollecter.soundcollecter.MainActivity">
+
+    <GridView
+        android:id="@+id/main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/isRecording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否在录音："/>
+    <TextView
+        android:id="@+id/isConnecting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否连接网络："/>
+</LinearLayout>
