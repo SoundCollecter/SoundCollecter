@@ -1,0 +1,3 @@
+# SoundCollecter
+Services包下有两个Service分别用于录音和上传文件
+Bluetooth包下是蓝牙控制模块的代码，具体类在开发中确定
